@@ -15,9 +15,11 @@ function useActiveSection() {
       )
       const scrollY = window.scrollY + 160
       for (let i = sections.length - 1; i >= 0; i--) {
-        if (sections[i] && sections[i].offsetTop <= scrollY) {
-          setActive(config.NAV_LINKS[i].id)
-          break
+        if (sections[i] !== null) {
+          if (sections[i]!.offsetTop <= scrollY) {
+            setActive(config.NAV_LINKS[i].id)
+            break
+          }
         }
       }
     }
