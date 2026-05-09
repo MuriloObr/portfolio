@@ -17,7 +17,7 @@ const PROJECTS = [
   {
     id: 2,
     title: '???',
-    desc: 'Sistema ERP de WMS simples.',
+    desc: 'Sistema de controle de documentos.',
     tags: ['??', '??', '??'],
     status: 'Em desenvolvimento',
     year: '2026',
