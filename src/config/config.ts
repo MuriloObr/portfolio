@@ -13,14 +13,28 @@ const PROJECTS = [
     tags: ['Typescript', 'Python', 'FastAPI', 'PostgreSQL', 'JWT'],
     status: 'Em Atividade',
     year: '2023',
+    github: 'ForUm_Front-End',
+    link: 'https://for-um-front-end.vercel.app/',
   },
   {
     id: 2,
+    title: 'Violet Track',
+    desc: 'Sistema de controle de contas, de extrato do cartão e conta feito para CSVs do Nubank.',
+    tags: ['Typescript', 'Golang', 'Fiber', 'Docker', 'Spec Driven'],
+    status: 'Em desenvolvimento',
+    year: '2026',
+    github: 'violet-track',
+    link: undefined,
+  },
+  {
+    id: 3,
     title: '???',
     desc: 'Sistema de controle de documentos.',
     tags: ['??', '??', '??'],
     status: 'Em desenvolvimento',
     year: '2026',
+    github: undefined,
+    link: undefined,
   },
 ]
 

@@ -56,8 +56,20 @@ export function ProjectsSection() {
                 ))}
               </div>
 
-              <div className="flex items-center gap-2 mt-6 font-mono text-[10px] text-secondary tracking-[0.15em] opacity-50 group-hover:opacity-100 transition-opacity">
-                <span>→ VER REPOSITÓRIO</span>
+              <div className="flex items-center gap-5 mt-6 font-mono text-[10px] text-secondary tracking-[0.15em] opacity-50 group-hover:opacity-100 transition-opacity">
+                <span className="p-1 transition-all ease-in border border-transparent hover:border-primary hover:font-black rounded-lg">
+                  <a
+                    href={`https://github.com/MuriloObr/${proj.github}`}
+                    target="__blank"
+                  >
+                    {proj.github ? '→ VER REPOSITÓRIO' : 'INDISPONÍVEL'}
+                  </a>
+                </span>
+                <span className="p-1 transition-all ease-in border border-transparent hover:border-primary hover:font-bold rounded-lg">
+                  <a href={proj.link} target="__blank">
+                    {proj.link ? '→ VER SITE' : ''}
+                  </a>
+                </span>
               </div>
 
               <div className="absolute top-0 right-0 w-0 h-0 border-t-20 border-t-primary/18 border-l-20 border-l-transparent" />
