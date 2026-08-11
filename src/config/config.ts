@@ -66,9 +66,10 @@ const TECH_CATEGORIES = [
 ]
 
 const STATUS_COLORS: Record<string, string> = {
-  'Em produção': 'var(--color-primary)',
+  'Em produção': 'var(--color-status-live)',
+  'Em Atividade': 'var(--color-status-live)',
   Concluído: 'var(--color-secondary)',
-  'Em desenvolvimento': 'var(--color-foreground)',
+  'Em desenvolvimento': 'var(--color-status-wip)',
   'Open Source': 'var(--color-primary)',
 }
 

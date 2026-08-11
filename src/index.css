@@ -31,6 +31,10 @@
     transparent
   );
 
+  /* Status semantics */
+  --color-status-live: #5fe08f;
+  --color-status-wip: #f2b95c;
+
   /* Font */
   --font-mono: 'JetBrains Mono', monospace;
 
